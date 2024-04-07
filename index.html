@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    \, initial-scale=1.0">
+    <title>Id</title>
+</head>
+<body id="canvas">
+    
+
+
+    <marquee direction="left">"Eid Mubarak 2024 " <span id="target"></span> By Aryan Shahanwaz **** Khushiyon aur pyar bhari is khaas mauqe par, aap aur aapke pure parivar ko dher saari mubarakbaad. Allah aapko khushiyan, barkatein aur achhayiyan ata farmaye. Ameen.</marquee>
+    <div class="banner">
+
+       <div class="mas">
+        <h1>
+            Shahi Jama Masjid , Beladam</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1712464881374!6m8!1m7!1sCAoSLEFGMVFpcE40VVl4NUc0elIybnpDOEd1UTAzTmc2Q0Vhc0haalJhcGZvR0FX!2m2!1d25.900061!2d85.54437990000001!3f5.009741598729529!4f-17.471358172035252!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="masjid maya"></iframe>
+       </div>
+       <div class="ban">
+        <img src="https://img.freepik.com/free-vector/realistic-3d-eid-mubarak-moon-lantern-greeting_1017-37811.jpg" class="maya">
+       </div>
+
+    </div>
+
+    
+<div class="cont">
+        
+    <button class="glow-on-hover  minor" type="button" id="target1">Click Here</button>
+</div>
+
+<div class="last">
+
+    <a href="https://www.instagram.com/aryanshahanwaz/"><p>©aryanshahanwaz</p></a>
+   
+</div>
+
+
+    
+ 
+
+    
+    <style>
+        *{
+
+            margin: 0;
+            padding: 0;
+            background:
+
+        }
+
+        .minor{
+            margin-top:3%;
+            margin-bottom: 2%;;
+        }
+        .cont{
+            background:black;
+        }
+
+        h1{
+            animation: bel 3s linear infinite;
+            font-size: 2rem;
+            font-family: sans-serif;
+            text-align: center;
+            padding-top:5%;
+            
+        }
+        .banner{
+
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+           background-color: black;
+           text-align: center;
+            
+        }
+
+        .inst{
+            width:2%;
+        }
+
+  
+      
+
+
+        @media screen and (max-width: 992px) {
+.banner{
+    grid-template-columns:1fr;
+}
+.maya{
+    width:60%;
+}
+}
+
+
+
+
+
+
+        .banner img{
+            box-shadow:5px 3px 5px 4px;
+            animation: ani 3s linear infinite;
+        }
+
+        marquee{
+
+            font-size:40px;
+            animation:ani 3s linear infinite;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background:black;
+        }
+        @keyframes bel {
+            0%{
+                color:white;
+            }
+            25%{
+                color:#Ffd700;
+            }
+            50%{
+                color:silver
+            }
+            75%{
+                color:rgb(248, 47, 47);
+            }
+            100%{
+                color:#Ffd700;
+            }
+            
+        }
+        @keyframes ani {
+            
+          0%{
+
+            color:orange;
+          }
+          33%{
+            color:white;
+          }
+          67%{
+            color:green;
+          }
+          100%{
+            color:orange;
+          }
+            
+        }
+        span{
+
+            color: #FFD700;
+        }
+
+        .masjid{
+
+            padding-top:8%;
+
+                }    
+                
+                
+            .cont{
+text-align: center;
+            }
+
+            p{
+                background:black;
+                text-align: center;
+                color:white;
+                font-size:20px;
+            }
+
+       
+            /*--------------Check---------*/
+
+            .glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+/*************************   */
+
+    </style>
+
+    <script>
+        var name=prompt("Enter your Name");
+
+        var play1e=name.slice(0,1).toUpperCase();
+var play1e2=name.slice(1,name.length).toLowerCase();
+ var firName=play1e+play1e2;
+
+        document.getElementById("target").innerText=firName;
+
+
+var target=document.getElementById("target1");
+
+
+  target.addEventListener("click",()=>{
+
+    var audio=new Audio("khali.mp4");
+    audio.play();
+  
+    
+    
+})
+
+
+
+
+
+          
+            
+  
+    </script>
+</body>
+</html>
